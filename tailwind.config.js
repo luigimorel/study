@@ -5,6 +5,21 @@ module.exports = {
     extend: {
       backgroundImage: {},
     },
+    textColor: {
+      primary: "#717CFF",
+      secondary: "#7D7D7D",
+      tertiary: "#2F2F2F",
+      white: "#ffffff",
+      minor: "#37474F",
+    },
+    backgroundColor: (theme) => ({
+      primary: "#717CFF",
+      secondary: "#ffed4a",
+      forth: "#fafafa",
+      feature: "#FAFAFA",
+      "main-bg": "#f2f2f2",
+      white: "#ffffff",
+    }),
   },
   variants: {
     extend: {},
