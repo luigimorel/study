@@ -61,17 +61,6 @@ const Navbar = () => {
             Apply
           </button>
         </Link>
-        {/* {open && (
-          <ul className="flex flex-col sm:hidden mt-8  ">
-            {menuList.map((x) => (
-              <Link key={x.id} to={x.route}>
-                <li className="mr-8 sm:mr-4 hover:font-medium  hover:border-blue-500  text-lg hover:text-primary  pb-1">
-                  {x.text}
-                </li>
-              </Link>
-            ))}
-          </ul>
-        )} */}
       </div>
     </div>
   );
