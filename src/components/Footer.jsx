@@ -80,7 +80,7 @@ const Footer = () => {
             <img src={LogoLight} className="mb-6" height="100" alt="" />
           </Link>
           <div>
-            <p>
+            <p className="font-medium">
               Concord Royal Court (3rd floor) Dhanmondi, <br /> Dhaka 1209,
               Bangladesh.
             </p>
@@ -89,7 +89,7 @@ const Footer = () => {
 
         <div className="flex flex-col">
           {menu1.map((x) => (
-            <a key={x.id} href={x.link} className="mb-6">
+            <a key={x.id} href={x.link} className="mb-6 font-medium">
               {x.text}
             </a>
           ))}
@@ -98,7 +98,7 @@ const Footer = () => {
         {/* Discliamers */}
         <div className="flex flex-col">
           {menu2.map((x) => (
-            <a key={x.id} href={x.link} className="mb-6">
+            <a key={x.id} href={x.link} className="mb-6 font-medium">
               {x.text}
             </a>
           ))}
