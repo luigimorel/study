@@ -15,10 +15,8 @@ import CTA from "../components/CTA";
 const Main = () => {
   return (
     <div className="bg-main-bg ">
-      <div className="sm:mx-14 mx-6 ">
-        <Navbar />
-        <HeroSection />
-      </div>
+      <Navbar />
+      <HeroSection />
       <FeaturedUniversities />
       <Services />
       <News />

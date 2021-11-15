@@ -5,6 +5,9 @@ import { Link } from "react-router-dom";
 import Logo from "./../assets/Logo.png";
 import { ReactComponent as BurgerMenu } from "./../assets/BurgerMenu.svg";
 
+// Components
+import MobileNav from "./MobileNavbar";
+
 const Navbar = () => {
   // State for the navbar
   const [open, setOpen] = useState(false);
@@ -37,32 +40,35 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="flex flex-row justify-between items-center pt-10 mb-10 ">
-      <Link to="/">
-        <img src={Logo} loading="lazy" alt="" />
-      </Link>
-
-      <p className="sm:hidden">
-        <BurgerMenu onClick={() => setOpen(!open)} />
-      </p>
-
-      <div className="sm:flex  md:flex-row hidden  items-center">
-        <ul className="flex flex-row   ">
-          {menuList.map((x) => (
-            <Link key={x.id} to={x.route}>
-              <li className="mr-8 sm:mr-4 hover:font-medium  hover:border-blue-500  text-lg hover:text-primary  pb-1">
-                {x.text}
-              </li>
-            </Link>
-          ))}
-        </ul>
+    <>
+      <div className="flex flex-row sm:mx-14 mx-6 justify-between items-center pt-10 mb-10 ">
         <Link to="/">
-          <button className="border-blue-300 border-2 hover:text-white transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-110 rounded-md px-8 py-2.5 hover:bg-primary ">
-            Apply
-          </button>
+          <img src={Logo} loading="lazy" alt="" />
         </Link>
+
+        <p className="sm:hidden">
+          <BurgerMenu onClick={() => setOpen(!open)} />
+        </p>
+
+        <div className="sm:flex  md:flex-row hidden  items-center">
+          <ul className="flex flex-row   ">
+            {menuList.map((x) => (
+              <Link key={x.id} to={x.route}>
+                <li className="mr-8 sm:mr-4 hover:font-medium  hover:border-blue-500  text-lg hover:text-primary  pb-1">
+                  {x.text}
+                </li>
+              </Link>
+            ))}
+          </ul>
+          <Link to="/">
+            <button className="border-blue-300 border-2 hover:text-white transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-110 rounded-md px-8 py-2.5 hover:bg-primary ">
+              Apply
+            </button>
+          </Link>
+        </div>
       </div>
-    </div>
+      {open && <MobileNav />}
+    </>
   );
 };
 

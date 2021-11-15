@@ -5,3 +5,7 @@
 .event-container:last-child {
   margin-right: 0;
 }
+
+.dropdown .dropdown-menu {
+  display: block;
+}
