@@ -1,4 +1,4 @@
-[https://app.netlify.com/sites/amazing-curie-4fdf74/overview](Live link for the Executive study landing page)
+[https://exec-study.netlify.app/](Live link for the Executive study landing page)
 
 ### Introduction
 
