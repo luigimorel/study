@@ -1,4 +1,4 @@
-[https://exec-study.netlify.app/](Live link for the Executive study landing page)
+![Live link for the Executive study landing page](https://res.cloudinary.com/morelmiles/image/upload/v1637015429/Screenshot_277_d9o2zl.png)
 
 ### Introduction
 
