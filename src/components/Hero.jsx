@@ -26,7 +26,7 @@ const HeroSection = () => {
     },
   ];
   return (
-    <div className="flex sm:flex-row flex-col  justify-between  sm:mt-18  sm:mt-36">
+    <div className="flex sm:mx-14 mx-6 sm:flex-row flex-col  justify-between  sm:mt-18  sm:mt-36">
       <div>
         <h3 className="text-tertiary text-5xl mb-12">
           We Help to <span className="text-primary">Build</span>
