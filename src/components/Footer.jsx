@@ -81,8 +81,8 @@ const Footer = () => {
           </Link>
           <div>
             <p className="font-medium">
-              Concord Royal Court (3rd floor) Dhanmondi, <br /> Dhaka 1209,
-              Bangladesh.
+              Port Avenue Road (3rd floor) Kampala, <br />
+              Uganda
             </p>
           </div>
         </div>
