@@ -2,7 +2,7 @@
 
 ### Introduction
 
-This is a template for a executive study website: **Live link** [Exective Study School](https://exec-study.netlify.app//). I hope this becomes an inspiration to you; feel free to use components of this codebase in your future projects. I built this to make myself happy, I hope you're happy looking at this project right now and you're making other people happy. ❤️
+This is a template for an executive study website: **Live link** [Exective Study School](https://exec-study.netlify.app/). I hope this becomes an inspiration to you; feel free to use components of this codebase in your future projects. I built this to make myself happy, I hope you're happy looking at this project right now and you're making other people happy. ❤️
 
 **Create some magic**
 
